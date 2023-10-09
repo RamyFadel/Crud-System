@@ -1,0 +1,70 @@
+body{background:linear-gradient(135deg, #FF305B 20% , #F1F1F1 10%);
+ font-family: 'Cormorant', serif;
+
+}
+.pop{background-color: #ff305b;}
+
+.change{background-color: rgb(241, 244, 248);
+/* background-position: center center; */
+background-size: cover;
+background-attachment: fixed;
+background:linear-gradient(135deg, #FF305B 20% , #F1F1F1 10%);
+transition: all 1s;
+
+}
+.change:hover{
+    box-shadow:5px 5px 15px #ff305b;
+}
+.crud h2{
+    font-family: 'Courgette', cursive;
+}
+.crud{
+    /* background-color: #ff305b; */
+width: 40%;
+margin: auto;
+text-align: center;
+position: relative;
+border-radius: 10px;
+transform:translate(80%,0px);
+transition: all 1s;
+}
+.change:hover .crud{
+    transform: scale(1.5,1.5);
+}
+
+.line1{
+    position: absolute;
+    width: 40%;   
+    height: 1px;
+    bottom: -10%;
+    left: 28%;
+    background-color: rgb(255, 48, 91);
+   
+    
+}
+.line2{
+    position: absolute;
+    width: 65%;
+    height: 1px;
+    background-color: #FF305B;
+    bottom: -20%;
+    left: 18%;
+}
+.line3{
+    position: absolute;
+    width: 40%;
+    height:1px;
+    bottom: -30%;
+    left: 32%;
+    background-color: #FF305B;
+}
+
+.change input, .change textarea{
+    transition:all 0.7s ;
+}
+.change input:hover{
+    box-shadow: -10px 8px 5px 2px rgba(54, 53, 53,0.7) !important;}
+.change textarea:hover{
+    
+        box-shadow: -10px 8px 5px 2px rgba(54, 53, 53,0.7)  !important;} 
+/* --------------------- */
